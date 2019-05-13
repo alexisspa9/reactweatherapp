@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from './search.svg';
 
-function UserInput() {
+function UserInput(props) {
 	return (
 		<div className="user-input">
 			<input type="text" />
-			<button className="userSubmit"><img src={Image} alt="search icon" /></button>
+			<button className="userSubmit" onClick={props.getWeather}><img src={Image} alt="search icon" /></button>
 		</div>
 		);
 }

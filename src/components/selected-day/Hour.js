@@ -5,7 +5,7 @@ function Hour() {
 	return (
 		<div className="specific-hour">
 			<span className="hour">00:00</span>
-			<img src={Idle} />
+			<img src={Idle} alt="alt" />
 			<span className="temp">22°C</span>
 		</div>
 	);

@@ -6,7 +6,7 @@ function Day() {
 		<div className="day">
 			<h5>Monday</h5>
 			<span className="date">14.05</span>
-			<img src={Idle} />
+			<img src={Idle} alt="alt" />
 			<span className="temp">22°C</span>
 		</div>
 	);
